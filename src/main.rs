@@ -18,7 +18,7 @@ fn main() {
     let args = env::args().collect::<Vec<String>>();
 
     if args.get(1).is_none() {
-        println!("no arg passed, need at least one, PROJECT_NAME");
+        println!("no arg passed, need at least one, IFSC");
         exit(1)
     }
 
